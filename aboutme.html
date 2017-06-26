@@ -3,29 +3,66 @@
 <head>
   <title>About Me</title>
   <style>
+  	body{
+    
+    }
     aside {
       float: left;
-      width: 160px;
+      width: 200px;
       margin: 0;
+      padding-right: 10px;
+      padding-top: 0px;
     }
     article {
-      height: 200px;
+      max-height: 260px;
+      overflow: visible;
+      background-color: #77a8a8;
     }
+    div.likes {
+    	float: left;
+        width: 150px;
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    div.article {
+    	float: left;
+        width: 300px;
+        text-align: left;
+        padding-right:50px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    section {
+      float: left;
+    }
+    header {
+    	margin: 0px;
+        padding: 0px;
+    }
+   	#profile {
+    border-radius: 50%;
+    margin-left: 30px;
+	}
+    
   </style>
 </head>
 <body>
+<header>
   <h1>About Me</h1>
+</header>
   <aside>
-    <img/>
+    <img src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/18512857_119731631934910_1426047597470023680_a.jpg" id="profile" width="100" height="100"/>
     <h2>Anika Mahajan</h2>
     <hr>
     <p>Bio:</p>
     <p>Fun Fact:</p>
   </aside>
   <article>
+  	<div class="article">
     <h2>Likes and Dislikes</h2>
+    <div class="likes">
     <h3>Likes</h3>
-     <p>
      <ul>
        <li>Books</li>
        <li>Netflix</li>
@@ -35,20 +72,25 @@
        <li>Tennis</li>
        <li>Sleep</li>
      </ul>
-     </p>
+     </div>
+     <div class="likes">
     <h3>Dislikes</h3>
-     <p>
      <ul>
        <li>Heat</li>
      </ul>
-     </p>
+    </div>
+    </div>
+   <div class="article">
    <h2>Links</h2>
+   </div>
   </article>
   <section>
     <h2>Projects</h2>
      <div class="gallery">
-        <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-     <div class="desc">Add a description of the image here</div>
+     <a target="_blank" href="https://scratch.mit.edu/projects/166996894/#player">
+        <img src="junglerun.png" alt="Jungle Run" width="300" height="200">
+        </a>
+     <div class="desc">A side-scroller game made with Scratch</div>
     </div> 
 </section>
 </body>
