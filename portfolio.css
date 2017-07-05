@@ -62,18 +62,19 @@
   #article {
     overflow: visible;
     background-color: #87bdd8;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    width: 210px;
+    width: 190px;
     text-align: center;
   }
   #likes {
     float: left;
-    width: 95px;
+    width: 85px;
     text-align: left;
     padding: 0px;
     background-color: #87bdd8;
     padding-left: 10px;
+    font-size: 10pt;
   }
   #section {
     background-color: #daebe8;
