@@ -57,7 +57,7 @@
     padding: 10px;
     background-color: #b7d7e8;
     text-align: center;
-    height: 330px;
+    height: auto;
   }
   #article {
     overflow: visible;
