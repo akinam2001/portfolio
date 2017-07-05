@@ -70,9 +70,8 @@
     float: left;
     width: 85px;
     text-align: left;
-    padding-right: 10px;
+    padding: 10px;
     background-color: #87bdd8;
-    padding-left: 10px;
     font-size: 9pt;
   }
   #section {
