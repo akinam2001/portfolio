@@ -8,7 +8,14 @@
 	<div id="topbar1"></div>
       <div id="menubar">
         <a href="aboutme.html">
-          <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-512.png" width="40" height="40"/>
+          <div class="dropdown">
+            <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-512.png" width="40" height="40"/>
+            <div class="dropdown-content">
+              <a href="#">o</a>
+              <a href="#">l</a>
+              <a href="#">k</a>
+            </div>
+          </div>
         </a>
 				<a target="_blank" href="https://www.instagram.com/anika.mahajan/">
           <img src="https://image.flaticon.com/icons/png/512/69/69366.png" width="40" height="40"/>
@@ -21,38 +28,30 @@
         Anika's Portfolio
       </div>
     <div id="topbar2"></div>
-        <div id="content">
-        </div>
   <div id="aside">
-    <img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/19761665_281779205619597_1827686035316801536_a.jpg" id="me" width="100" height="100"/>
+    <img onmouseover="this.style.height='125px'; this.style.width='125px';" onmouseout="this.style.height='100px'; this.style.width='100px'; "src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/19761665_281779205619597_1827686035316801536_a.jpg" id="me" width="100" height="100"/>
 		<h2>Anika Mahajan</h2>
     <p>I'm a junior at Foothill High School. I play tennis and volunteer at the library. I love dogs and pretty much all animals.</p>
     <p>Fun Fact: Most of my friendships are based on dog pictures.</p>
 		<div id="article">
-    <h2>Likes and Dislikes</h2>
-    <div id="likes">
-    <h3>Likes</h3>
-       <li>Books</li>
-       <li>Netflix</li>
-       <li>Animals</li>
-       <li>Food</li>
-       <li>Videogames</li>
-       <li>Tennis</li>
-       <li>Sleep</li>
-       <br>
-	  </div>
-	  <div id="likes">
-    <h3>Dislikes</h3>
-       <li>Heat</li>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-		</div>
-  </div>
+      <h2>Likes and Dislikes</h2>
+      <div id="likes">
+        Likes
+          <li>Books</li>
+          <li>Netflix</li>
+          <li>Food</li>
+          <li>Videogames</li>
+          <li>Sleep</li>
+	    </div>
+  	  <div id="dislikes">
+        Dislikes
+         <li>Heat</li>
+         <br>
+         <br>
+         <br>
+         <br>
+  		</div>
+    </div>
   </div>
   <div id="section">
 	<div class="Projects">
@@ -70,16 +69,19 @@
         <div class="desc">A pong-like game made with Scratch</div>
       </div>
 			<div class="gallery">
-          <img src="corgi3.jpg" alt="Corgi" width="300" height="auto"/>
-        <div class="desc">Obamicon filter which changes the pixels' r b g values made with Python</div>
+          <img onmouseover="this.src= 'corgi2.jpg'" onmouseout="this.src='corgi3.jpg'"src="corgi3.jpg" id="Corgi" alt="Corgi" width="300" height="auto"/>
+        <div class="desc">
+          <p>An Obamicon filter which changes the pixels' r b g values made with Python
+             hover over to see the original</p>
+        </div>
       </div>
 			<div class="gallery">
           <img src="haiku.png" alt="Haiku Generator" width="300" height="auto"/>
         <div class="desc">A random haiku generator made with Python using lists</div>
       </div>
 			<div class="gallery">
-          <img src="shapedrawer.png" alt="Shape Drawer" width="300" height="auto"/>
-        <div class="desc">A shape drawin made with Python using user input</div>
+          <img src="shapedrawer.png" alt="Shape Drawer" width="300" height="200"/>
+        <div class="desc">A shape drawing made with Python using user input</div>
       </div>
 	</div>
   </div>
