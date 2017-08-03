@@ -47,6 +47,8 @@ body, html {
 border-radius: 50%;
 text-align: center;
 }
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
 
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
