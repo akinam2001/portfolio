@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="portfolio.css">
-		<link rel='shortcut icon' type='image/x-icon' href='https://image.flaticon.com/icons/svg/60/60993.svg' />
+    <link rel="stylesheet" href="trial.css">
     <script src="trial.js"></script>
   </head>
   <body>
@@ -18,6 +17,7 @@
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="https://www.instagram.com/anika.mahajan/" target="_blank" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-instagram" aria-hidden="true"></i>INSTAGRAM</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#Art" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paint-brush" aria-hidden="true"></i>ART</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -25,6 +25,7 @@
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="https://www.instagram.com/anika.mahajan/" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()">INSTAGRAM</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#Art" class="w3-bar-item w3-button" onclick="toggleFunction()">ART</a>
   </div>
 </div>
 
@@ -48,47 +49,49 @@
   <div id="section">
 	<div class="Projects">
     <h2>Projects</h2>
-    <div class="slideshow-container">
-  <div class="mySlides fade">
-    <a target="_blank" href="https://scratch.mit.edu/projects/166996894/#player">
-    <img src="producktivity.jpeg" alt="Producktivity" style="width:100%">
-  </a>
-    <div class="text">A website to help get your ducks in a row</div>
-  </div>
-
-  <div class="mySlides fade">
-    <a target="_blank" href="https://scratch.mit.edu/projects/166996894/#player">
-      <img src="junglerun.png" alt="Jungle Run" width="100%"/>
+    <div class="w3-row" id="myGrid" style="margin-bottom:10px">
+    <div class="w3-half">
+      <a target="_blank" href="https://tinyurl.com/proDUCKtivity">
+      <img src="producktivity.jpeg" alt="Producktivity" style="width:100%">
     </a>
-    <div class="text">A side-scroller game made with Scratch</div>
+      <a target="_blank" href="http://anikam1926.pythonanywhere.com">
+        <img src="django.jpeg" alt="Django Blog" width="100%" height="auto"/>
+      </a>
+      <img onmouseover="this.src='corgi2.jpeg'" onmouseout="this.src='corgi3.jpeg'"src="corgi3.jpeg" id="Corgi" alt="Corgi" width="100%"/>
+
+         <a target="_blank" href="https://scratch.mit.edu/projects/166996894/#player">
+           <img src="junglerun.png" alt="Jungle Run" width="100%"/>
+         </a>
+    </div>
+
+    <div class="w3-half">
+      <a target="_blank" href="https://scratch.mit.edu/projects/166868022/">
+        <img src="paddleball.png" alt="Paddle Ball" width="100%"/>
+      </a>
+      <img src="robot.JPG" style="width:101%">
+    </div>
+
   </div>
-
-  <div class="mySlides fade">
-    <a target="_blank" href="https://scratch.mit.edu/projects/166868022/">
-      <img src="paddleball.png" alt="Paddle Ball" width="100%"/>
-    </a>
-    <div class="text">A pong-like game made with Scratch</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img onmouseover="this.src='corgi2.jpg'" onmouseout="this.src='corgi3.jpg'"src="corgi3.jpg" id="Corgi" alt="Corgi" width="100%"/>
-    <div class="text">An Obamicon filter which changes the pixels' r b g values made with Python<br>
-       hover over to see the original</div>
-  </div>
-
-  <div class="mySlides fade">
-    <a target="_blank" href="http://anikam1926.pythonanywhere.com">
-      <img src="django.jpeg" alt="Django Blog" width="100%" height="auto"/>
-    </a>
-    <div class="text">A secure blog made with Django</div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
 	</div>
   </div>
+<div style="padding:1vw;">
+  <h2>Art</h2>
+  <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third" id="Art">
+    <img src="owl2.jpg" style="width:100%">
+    <img src="monster.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="Anirudh.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="owl.jpg" style="width:100%">
+    <img src="Wolf.jpg" style="width:100%">
+  </div>
+</div>
+
+
 </body>
 </html>
